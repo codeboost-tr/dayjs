@@ -1,0 +1,35 @@
+{
+  "id": "sha256:sourcey-dayjs-docs-v1",
+  "@context": "https://w3id.org/chainpoint/v2",
+  "type": "ChainpointSHA256v2",
+  "issuer": {
+    "runx_cli_version": "0.6.13"
+  },
+  "subject": {
+    "ref": {
+      "uri": "https://codeboost-tr.github.io/dayjs/"
+    }
+  },
+  "acts": [
+    {
+      "type": "sourcey-build",
+      "output": {
+        "refs": [
+          "https://codeboost-tr.github.io/dayjs/"
+        ],
+        "pages": [
+          "introduction",
+          "installation",
+          "parsing",
+          "get-set",
+          "manipulating",
+          "displaying",
+          "querying",
+          "formatting",
+          "plugins",
+          "i18n"
+        ]
+      }
+    }
+  ]
+}
